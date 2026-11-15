@@ -62,15 +62,15 @@ class Program
 
                     case 2:
                         Console.Write("fila: ");
-                        int f = int.Parse(Console.ReadLine());
+                        int fila = int.Parse(Console.ReadLine());
                         Console.Write("columna: ");
-                        int c = int.Parse(Console.ReadLine());
+                        int columna = int.Parse(Console.ReadLine());
 
-                        if (f >= 0 && f < 5 && c >= 0 && c < 6)
+                        if (fila >= 0 && fila < 5 && columna >= 0 && columna < 6)
                         {
-                            if (sala[f, c] == 'L')
+                            if (sala[fila, columna] == 'L')
                             {
-                                sala[f, c] = 'O';
+                                sala[fila, columna] = 'O';
                                 Console.WriteLine("asiento reservado");
                             }
                             else
@@ -86,15 +86,15 @@ class Program
 
                     case 3:
                         Console.Write("fila: ");
-                        f = int.Parse(Console.ReadLine());
+                        fila = int.Parse(Console.ReadLine());
                         Console.Write("columna: ");
-                        c = int.Parse(Console.ReadLine());
+                        columna = int.Parse(Console.ReadLine());
 
-                        if (f >= 0 && f < 5 && c >= 0 && c < 6)
+                        if (fila >= 0 && fila < 5 && columna >= 0 && columna < 6)
                         {
-                            if (sala[f, c] == 'O')
+                            if (sala[fila, columna] == 'O')
                             {
-                                sala[f, c] = 'L';
+                                sala[fila, columna] = 'L';
                                 Console.WriteLine("asiento liberado");
                             }
                             else
@@ -110,13 +110,13 @@ class Program
 
                     case 4:
                         Console.Write("fila: ");
-                        f = int.Parse(Console.ReadLine());
+                        fila = int.Parse(Console.ReadLine());
                         Console.Write("columna: ");
-                        c = int.Parse(Console.ReadLine());
+                        columna = int.Parse(Console.ReadLine());
 
-                        if (f >= 0 && f < 5 && c >= 0 && c < 6)
+                        if (fila >= 0 && fila < 5 && columna >= 0 && columna < 6)
                         {
-                            if (sala[f, c] == 'L')
+                            if (sala[fila, columna] == 'L')
                             {
                                 Console.WriteLine("esta libre");
                             }
