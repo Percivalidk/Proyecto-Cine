@@ -45,16 +45,15 @@ class Program
                             for (int j = 0; j < 6; j++)
                             {
                                 if (sala[i, j] == 'L')
-                                {
-                                    Console.ForegroundColor = ConsoleColor.Green;
-                                    Console.Write("[L]");
-                                }
-                                else
-                                {
-                                    Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.Write("[O]");
-                                }
-                                Console.ResetColor();
+                            {
+                              Console.ForegroundColor = ConsoleColor.Green;
+                            }
+                          else
+                            {
+                              Console.ForegroundColor = ConsoleColor.Red;
+                            }
+                              Console.Write("[" + sala[i, j] + "]");
+                              Console.ResetColor();
                             }
                             Console.WriteLine();
                         }
