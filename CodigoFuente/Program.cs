@@ -131,31 +131,26 @@ class Program
                             break;
 
                     
+                        case 5:
+                          int ocupados = 0;
 
-                    case 5:
-                        int ocupados = 0;
-                        int libres = 0;
+                           for (int i = 0; i < 5; i++)
+                         {
+                           for (int j = 0; j < 6; j++)
+                         {
+                        if (sala[i, j] == 'O')
+                         {
+                           ocupados++;
+                         }
+                      }
+                   }
 
-                        for (int i = 0; i < 5; i++)
-                        {
-                            for (int j = 0; j < 6; j++)
-                            {
-                                if (sala[i, j] == 'O')
-                                {
-                                    ocupados++;
-                                }
-                                else
-                                {
-                                    libres++;
-                                }
-                            }
-                        }
-
-                        double porcentaje = (ocupados * 100.0) / 30;
-                        Console.WriteLine("ocupados: " + ocupados);
-                        Console.WriteLine("libres: " + libres);
-                        Console.WriteLine("porcentaje: " + porcentaje + "%");
-                        break;
+                    int libres = 30 - ocupados;
+                     Console.WriteLine("ocupados: " + ocupados);
+                    Console.WriteLine("libres: " + libres);
+                    Console.WriteLine("porcentaje: " + ((ocupados * 100.0) / 30) + "%");
+                    break;
+                   
 
                     case 6:
                         Console.WriteLine("adios");
