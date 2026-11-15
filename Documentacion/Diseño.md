@@ -13,7 +13,8 @@ Diseño de la Solución - Control de Asientos de Cine
 Así se verá el menú y la sala cuando el usuario abra el programa:
 
 SISTEMA DE ASIENTOS DEL CINE 
-    0  1  2  3  4  5
+
+   0  1  2  3  4  5
 0   L  L  O  L  L  L
 1   L  L  L  L  O  L
 2   O  O  L  L  L  L
