@@ -108,28 +108,30 @@ class Program
                         }
                         break;
 
-                    case 4:
-                        Console.Write("fila: ");
-                        fila = int.Parse(Console.ReadLine());
+                        case 4:
+                       Console.Write("fila: ");
+                       fila = int.Parse(Console.ReadLine());
                         Console.Write("columna: ");
                         columna = int.Parse(Console.ReadLine());
 
-                        if (fila >= 0 && fila < 5 && columna >= 0 && columna < 6)
-                        {
-                            if (sala[fila, columna] == 'L')
-                            {
-                                Console.WriteLine("esta libre");
-                            }
-                            else
-                            {
-                                Console.WriteLine("esta ocupado");
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("no existe ese asiento");
-                        }
-                        break;
+                         if (fila >= 0 && fila < 5 && columna >= 0 && columna < 6)
+                           {
+                               if (sala[fila, columna] == 'L')
+                           {
+                           Console.WriteLine("El asiento [" + fila + "," + columna + "] esta LIBRE");
+                           }
+                      else
+                           {
+                            Console.WriteLine("El asiento [" + fila + "," + columna + "] esta OCUPADO");
+                           }
+                           }
+                      else
+                          {
+                           Console.WriteLine("no existe ese asiento");
+                          }
+                            break;
+
+                    
 
                     case 5:
                         int ocupados = 0;
