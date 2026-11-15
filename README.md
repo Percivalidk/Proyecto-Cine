@@ -7,4 +7,4 @@ Proyecto de cine hecho en clase para practicar GitHub.
 - Evidencias
 
 ## Hecho por
-JoselynOlea00 y Héctor 
+Joselyn Olea y Héctor Valencia  
