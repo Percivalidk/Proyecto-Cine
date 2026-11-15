@@ -12,7 +12,7 @@ Diseño de la Solución - Control de Asientos de Cine
 3. Diseño Preliminar de la Interfaz (Pantalla en consola)
 Así se verá el menú y la sala cuando el usuario abra el programa:
 
-=== SISTEMA DE ASIENTOS DEL CINE ===
+SISTEMA DE ASIENTOS DEL CINE 
     0  1  2  3  4  5
 0   L  L  O  L  L  L
 1   L  L  L  L  O  L
