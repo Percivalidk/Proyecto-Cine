@@ -19,7 +19,7 @@ class Program
         while (opcion != 6)
         {
             Console.Clear();
-            Console.WriteLine("CINE");
+            Console.WriteLine(" SISTEMA DE CINE");
             Console.WriteLine("1. ver sala");
             Console.WriteLine("2. reservar");
             Console.WriteLine("3. liberar");
