@@ -35,29 +35,8 @@ class Program
                 switch (opcion)
                 {
                     case 1:
-                        Console.WriteLine();
-                        Console.WriteLine("  === PANTALLA ===");
-                        Console.WriteLine("   0  1  2  3  4  5");
-
-                        for (int i = 0; i < 5; i++)
-                        {
-                            Console.Write(i + " ");
-                            for (int j = 0; j < 6; j++)
-                            {
-                                if (sala[i, j] == 'L')
-                            {
-                              Console.ForegroundColor = ConsoleColor.Green;
-                            }
-                          else
-                            {
-                              Console.ForegroundColor = ConsoleColor.Red;
-                            }
-                              Console.Write("[" + sala[i, j] + "]");
-                              Console.ResetColor();
-                            }
-                            Console.WriteLine();
-                        }
-                        break;
+    MostrarSala();
+    break;
 
                     case 2:
                         Console.Write("fila: ");
